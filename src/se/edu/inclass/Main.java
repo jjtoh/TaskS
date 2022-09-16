@@ -37,6 +37,7 @@ public class Main {
     }
 
     public static void printData(ArrayList<Task> tasksData) {
+        System.out.println("Printing data using loops:");
         for (Task t : tasksData) {
             System.out.println(t);
         }
